@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color:rgba(10, 32, 66, 0.954);
+    color: white;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    display: flex;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1100px;
+    
+}
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+ .links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p.toptext {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.sectionone {
+   background-color:rgba(10, 32, 66, 0.954);
+   color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:100px;
+}
+
+.onemain {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left:100px;
+    width:800px;
+    height:200px;
+}
+
+.largepic {
+    display: flex;
+    width: 50%;
+    padding-left:300px;
+}
+
+.buttonone {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    padding: 5px 20px;
+    border-style: none;
+}
+
+div .secondheader{
+    text-align: center;
+}
+
+.sectiontwo {
+    padding-bottom: 50px;
+}
+
+div .cube {
+    width: 150px;
+    height: 150px;
+    border-radius:20%;
+    margin: 0px;
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .smallsection {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.thirdsection {
+    background-color: lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    height: 300px;
+}
+
+div .quote {
+    font-size: 30px;
+    font-style: italic;
+    padding: 50px;
+}
+
+div .person {
+    font-size: 18px;
+    font-weight:bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.fourthsection {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bluebox {
+    background-color: deepskyblue;
+    color: white;
+    width:900px;
+    height:100px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div .action {
+    font-weight: bold;
+    font-size:20px;
+}
+
+.buttontwo {
+    border-color:white;
+    color:white;
+    background-color:deepskyblue;
+    padding: 5px 10px;
+    border-radius:10px;
+    border-style: solid;
+}
+
+
+footer {
+    background-color: rgba(10, 32, 66, 0.954);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
